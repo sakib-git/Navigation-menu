@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dropmenu{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+a{
+    display: block;
+    width: 320px;
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+a:hover{
+    background: skyblue;
+}
+.product{
+    list-style-type: none;
+    display:none ;
+}
+.dropmenu li:nth-child(2):hover .product{
+    display: block;
+    
+}
+
+
+.book{
+    list-style-type: none;
+    transform: translateX(300px) translateY(-40px);
+    position: absolute;
+    display: none;
+}
+.product li:nth-child(3):hover .book{
+    display:block ;
+}
